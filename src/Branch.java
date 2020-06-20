@@ -13,6 +13,15 @@ public class Branch() {
         this.phone = phone;
         this.brNear = branchNr;
     }
+   
+    public void getCar(Car car1){
+        return car;
+    }
+
+    public Car setCar(Car car1){
+        this.car1 =car1;
+    }
+    
     List<Car> car = new ArrayList<Car>;
     car.add(car1);
     List<Rental> rental = new ArrayList<Rental>;
@@ -23,7 +32,8 @@ public class Branch() {
         system.out.println(this.address);
         system.out.println(this.phone);
     }
-    public void addCar(){
-        
+    
+    public void addCar(Car car1){
+        car.add(car1);
     }
 }

@@ -20,6 +20,6 @@ public static void main() {
    branch1.showBranch();
    customer1.showCustomer();   
 
-   
+   branch1.addCar(car2);
    
 }
